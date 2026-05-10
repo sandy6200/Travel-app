@@ -18,7 +18,8 @@ function Mainpage() {
       </div>
 
       <div className="call mt-5">
-        <Link to="/rental">Book Self Drive Car</Link>
+        {/* <Link to="/rental">Book Self Drive Car</Link> */}
+        Book Self Drive Car
       </div>
     </div>
   );
