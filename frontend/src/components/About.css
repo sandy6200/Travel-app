@@ -1,0 +1,36 @@
+.row {
+  height: 70vh;
+  width: 100%;
+  margin-top: 100px;
+}
+.row h1 {
+  font-size: 48px;
+}
+.row img {
+  height: 450px;
+  width: 550px;
+  border-radius: 16px;
+}
+
+.paragraph1 {
+  color: rgb(106, 104, 104);
+  font-size: 20px;
+}
+
+.paragraph2 {
+  color: rgb(106, 104, 104);
+  font-size: 20px;
+}
+
+ul {
+  font-size: 20px;
+  text-decoration: #f0b100;
+}
+
+ul li::marker {
+  color: #f0b100;
+}
+
+ul li {
+  margin-top: 10px;
+}

@@ -1,0 +1,57 @@
+.f-1 {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  padding: 10px 15px;
+  border-radius: 10px;
+
+  transition: all 0.3s ease;
+}
+
+/* 🔥 Hover Effect */
+.f-1:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-3px);
+}
+
+.designation {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Icon Styling */
+.icon {
+  height: 45px;
+  width: 45px;
+  background-color: #f0b100;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.3s;
+}
+
+/* 🔥 Icon hover effect */
+.f-1:hover .icon {
+  background-color: #ffcc00;
+  transform: rotate(5deg) scale(1.1);
+}
+
+.name {
+  color: black;
+  font-size: 20px;
+}
+
+.value {
+  color: white;
+}
+
+.yellow {
+  color: #f0b100;
+}

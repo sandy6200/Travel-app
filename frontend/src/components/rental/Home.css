@@ -1,0 +1,12 @@
+.brands {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
