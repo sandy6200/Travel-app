@@ -1,22 +1,14 @@
-.row {
-  height: 70vh;
-  width: 100%;
-  margin-top: 100px;
-}
-.row h1 {
+.about h1 {
   font-size: 48px;
 }
-.row img {
-  height: 450px;
-  width: 550px;
+
+.about-img {
   border-radius: 16px;
+  max-width: 100%;
+  height: auto;
 }
 
-.paragraph1 {
-  color: rgb(106, 104, 104);
-  font-size: 20px;
-}
-
+.paragraph1,
 .paragraph2 {
   color: rgb(106, 104, 104);
   font-size: 20px;
@@ -24,7 +16,6 @@
 
 ul {
   font-size: 20px;
-  text-decoration: #f0b100;
 }
 
 ul li::marker {
@@ -33,4 +24,29 @@ ul li::marker {
 
 ul li {
   margin-top: 10px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 480px) {
+
+  .about h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .paragraph1,
+  .paragraph2,
+  ul {
+    font-size: 16px;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  ul {
+    text-align: left;
+  }
 }
