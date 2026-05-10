@@ -17,7 +17,7 @@ function About() {
             comfortable taxi services around the clock.
           </h5>
 
-          <h5 className="paragraph2 mt-4">
+          <h5 className="paragraph2 mt-4 ourFleet">
             With our fleet of well-maintained Toyota Etios vehicles and
             experienced drivers, we ensure your journey is safe, comfortable,
             and enjoyable. Whether it's a local trip or an outstation journey,

@@ -26,11 +26,9 @@ ul li {
   margin-top: 10px;
 }
 
-
 /* Mobile */
 
 @media (max-width: 480px) {
-
   .about h1 {
     font-size: 32px;
     text-align: center;
@@ -48,5 +46,9 @@ ul li {
 
   ul {
     text-align: left;
+  }
+
+  .ourFleet {
+    display: none;
   }
 }
