@@ -1,4 +1,5 @@
 import "./About.css";
+import aboutImg from "../assets/about.jpg";
 function About() {
   return (
     <section className="row">
@@ -23,7 +24,7 @@ function About() {
         </ul>
       </div>
       <div className="col-4 px-5">
-        <img src="src/assets/about.jpg" alt="about image" />
+        <img src={aboutImg} alt="about image" />
       </div>
       <div className="col-2"></div>
     </section>
