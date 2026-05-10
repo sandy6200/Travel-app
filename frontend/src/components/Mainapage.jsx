@@ -17,10 +17,7 @@ function Mainpage() {
         <a href="tel:6200125629">Call Now: 6200125629</a>
       </div>
 
-      <div className="call mt-5">
-        {/* <Link to="/rental">Book Self Drive Car</Link> */}
-        Book Self Drive Car
-      </div>
+      
     </div>
   );
 }
