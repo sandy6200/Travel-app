@@ -4,7 +4,7 @@ import Box from "./Box.jsx";
 function Services() {
   return (
     <>
-      <div className="head mt-5">
+      <div className="head mt-2">
         <h1 className="our">Our Services</h1>
         <p className="trust">Your trusted travel partner in Indore</p>
       </div>
